@@ -1,0 +1,435 @@
+【2020-05-27_18:22:17】【INFO】【conftest.py】【init_login】【日志信息】：=====用例前置：初始化浏览器会话:打开谷歌浏览器，访问系统网址：https://j2.sccpcloud.com/login/#/Login?clientId=visual_materials&redirectUrl=https%3A%2F%2Fvisualuat.sccpcloud.com%2Fmaterials%2F%23%2Fapp%2Fdynamic%2Flist%3Froute%3D=======
+【2020-05-27_18:22:24】【INFO】【test_login.py】【test_login_success】【日志信息】：===========登陆用例：正常场景：使用正确的用户名和密码登陆=========
+【2020-05-27_18:22:24】【INFO】【base_page.py】【wait_ele_visible】【日志信息】：等待元素可见。
+【2020-05-27_18:22:24】【INFO】【base_page.py】【wait_ele_visible】【日志信息】：登录页面_登录功能模块: 元素 ('xpath', '//button[@class="ant-btn home_box1_button"]')已可见
+【2020-05-27_18:22:24】【INFO】【base_page.py】【find_ele】【日志信息】：登录页面_登录功能：开始查找元素：('xpath', '//button[@class="ant-btn home_box1_button"]')
+【2020-05-27_18:22:24】【INFO】【base_page.py】【click_ele】【日志信息】：登录页面_登录功能：元素：('xpath', '//button[@class="ant-btn home_box1_button"]') 点击操作
+【2020-05-27_18:22:24】【INFO】【base_page.py】【wait_ele_visible】【日志信息】：等待元素可见。
+【2020-05-27_18:22:24】【INFO】【base_page.py】【wait_ele_visible】【日志信息】：登录页面_登录功能模块: 元素 ('xpath', '//input[@id="username"]')已可见
+【2020-05-27_18:22:24】【INFO】【base_page.py】【find_ele】【日志信息】：登录页面_登录功能：开始查找元素：('xpath', '//input[@id="username"]')
+【2020-05-27_18:22:24】【INFO】【base_page.py】【input_text】【日志信息】：登录页面_登录功能：元素：('xpath', '//input[@id="username"]') 输入内容：Mat001
+【2020-05-27_18:22:25】【INFO】【base_page.py】【find_ele】【日志信息】：登录页面_登录功能：开始查找元素：('xpath', '//input[@id="password"]')
+【2020-05-27_18:22:25】【INFO】【base_page.py】【input_text】【日志信息】：登录页面_登录功能：元素：('xpath', '//input[@id="password"]') 输入内容：Mima123!
+【2020-05-27_18:22:25】【INFO】【base_page.py】【find_ele】【日志信息】：登录页面_登录功能：开始查找元素：('xpath', '//div[@class="login-box"]//button')
+【2020-05-27_18:22:25】【INFO】【base_page.py】【click_ele】【日志信息】：登录页面_登录功能：元素：('xpath', '//div[@class="login-box"]//button') 点击操作
+【2020-05-27_18:22:25】【INFO】【base_page.py】【wait_ele_visible】【日志信息】：等待元素可见。
+【2020-05-27_18:22:32】【INFO】【base_page.py】【wait_ele_visible】【日志信息】：首页_获取用户昵称模块: 元素 ('xpath', '//div[@class="name"]')已可见
+【2020-05-27_18:22:32】【INFO】【base_page.py】【find_ele】【日志信息】：首页_获取用户昵称：开始查找元素：('xpath', '//div[@class="name"]')
+【2020-05-27_18:22:32】【INFO】【base_page.py】【get_text】【日志信息】：首页_获取用户昵称：获取元素：('xpath', '//div[@class="name"]')的文本内容
+【2020-05-27_18:22:32】【INFO】【base_page.py】【get_text】【日志信息】：首页_获取用户昵称：获取元素：('xpath', '//div[@class="name"]')的文本内容是：Mat001
+【2020-05-27_18:22:32】【INFO】【conftest.py】【init_login】【日志信息】：=====用例后置：关闭谷歌浏览器会话=======
+【2020-05-27_18:22:34】【INFO】【conftest.py】【init_login】【日志信息】：=====用例前置：初始化浏览器会话:打开谷歌浏览器，访问系统网址：https://j2.sccpcloud.com/login/#/Login?clientId=visual_materials&redirectUrl=https%3A%2F%2Fvisualuat.sccpcloud.com%2Fmaterials%2F%23%2Fapp%2Fdynamic%2Flist%3Froute%3D=======
+【2020-05-27_18:22:41】【INFO】【test_login.py】【test_login_success】【日志信息】：===========登陆用例：正常场景：使用正确的用户名和密码登陆=========
+【2020-05-27_18:22:41】【INFO】【base_page.py】【wait_ele_visible】【日志信息】：等待元素可见。
+【2020-05-27_18:22:41】【INFO】【base_page.py】【wait_ele_visible】【日志信息】：登录页面_登录功能模块: 元素 ('xpath', '//button[@class="ant-btn home_box1_button"]')已可见
+【2020-05-27_18:22:41】【INFO】【base_page.py】【find_ele】【日志信息】：登录页面_登录功能：开始查找元素：('xpath', '//button[@class="ant-btn home_box1_button"]')
+【2020-05-27_18:22:41】【INFO】【base_page.py】【click_ele】【日志信息】：登录页面_登录功能：元素：('xpath', '//button[@class="ant-btn home_box1_button"]') 点击操作
+【2020-05-27_18:22:41】【INFO】【base_page.py】【wait_ele_visible】【日志信息】：等待元素可见。
+【2020-05-27_18:22:42】【INFO】【base_page.py】【wait_ele_visible】【日志信息】：登录页面_登录功能模块: 元素 ('xpath', '//input[@id="username"]')已可见
+【2020-05-27_18:22:42】【INFO】【base_page.py】【find_ele】【日志信息】：登录页面_登录功能：开始查找元素：('xpath', '//input[@id="username"]')
+【2020-05-27_18:22:42】【INFO】【base_page.py】【input_text】【日志信息】：登录页面_登录功能：元素：('xpath', '//input[@id="username"]') 输入内容：Mat092
+【2020-05-27_18:22:42】【INFO】【base_page.py】【find_ele】【日志信息】：登录页面_登录功能：开始查找元素：('xpath', '//input[@id="password"]')
+【2020-05-27_18:22:42】【INFO】【base_page.py】【input_text】【日志信息】：登录页面_登录功能：元素：('xpath', '//input[@id="password"]') 输入内容：Mima123!
+【2020-05-27_18:22:42】【INFO】【base_page.py】【find_ele】【日志信息】：登录页面_登录功能：开始查找元素：('xpath', '//div[@class="login-box"]//button')
+【2020-05-27_18:22:42】【INFO】【base_page.py】【click_ele】【日志信息】：登录页面_登录功能：元素：('xpath', '//div[@class="login-box"]//button') 点击操作
+【2020-05-27_18:22:43】【INFO】【base_page.py】【wait_ele_visible】【日志信息】：等待元素可见。
+【2020-05-27_18:22:49】【INFO】【base_page.py】【wait_ele_visible】【日志信息】：首页_获取用户昵称模块: 元素 ('xpath', '//div[@class="name"]')已可见
+【2020-05-27_18:22:49】【INFO】【base_page.py】【find_ele】【日志信息】：首页_获取用户昵称：开始查找元素：('xpath', '//div[@class="name"]')
+【2020-05-27_18:22:49】【INFO】【base_page.py】【get_text】【日志信息】：首页_获取用户昵称：获取元素：('xpath', '//div[@class="name"]')的文本内容
+【2020-05-27_18:22:49】【INFO】【base_page.py】【get_text】【日志信息】：首页_获取用户昵称：获取元素：('xpath', '//div[@class="name"]')的文本内容是：Mat092
+【2020-05-27_18:22:49】【INFO】【conftest.py】【init_login】【日志信息】：=====用例后置：关闭谷歌浏览器会话=======
+【2020-05-27_18:22:51】【INFO】【conftest.py】【init_login】【日志信息】：=====用例前置：初始化浏览器会话:打开谷歌浏览器，访问系统网址：https://j2.sccpcloud.com/login/#/Login?clientId=visual_materials&redirectUrl=https%3A%2F%2Fvisualuat.sccpcloud.com%2Fmaterials%2F%23%2Fapp%2Fdynamic%2Flist%3Froute%3D=======
+【2020-05-27_18:22:57】【INFO】【test_login.py】【test_login_error_user_pwd】【日志信息】：===========登陆用例：异常场景：使用错误的用户名和密码登陆=========
+【2020-05-27_18:22:57】【INFO】【base_page.py】【wait_ele_visible】【日志信息】：等待元素可见。
+【2020-05-27_18:22:58】【INFO】【base_page.py】【wait_ele_visible】【日志信息】：登录页面_登录功能模块: 元素 ('xpath', '//button[@class="ant-btn home_box1_button"]')已可见
+【2020-05-27_18:22:58】【INFO】【base_page.py】【find_ele】【日志信息】：登录页面_登录功能：开始查找元素：('xpath', '//button[@class="ant-btn home_box1_button"]')
+【2020-05-27_18:22:58】【INFO】【base_page.py】【click_ele】【日志信息】：登录页面_登录功能：元素：('xpath', '//button[@class="ant-btn home_box1_button"]') 点击操作
+【2020-05-27_18:22:58】【INFO】【base_page.py】【wait_ele_visible】【日志信息】：等待元素可见。
+【2020-05-27_18:22:58】【INFO】【base_page.py】【wait_ele_visible】【日志信息】：登录页面_登录功能模块: 元素 ('xpath', '//input[@id="username"]')已可见
+【2020-05-27_18:22:58】【INFO】【base_page.py】【find_ele】【日志信息】：登录页面_登录功能：开始查找元素：('xpath', '//input[@id="username"]')
+【2020-05-27_18:22:58】【INFO】【base_page.py】【input_text】【日志信息】：登录页面_登录功能：元素：('xpath', '//input[@id="username"]') 输入内容：Mat0011
+【2020-05-27_18:22:59】【INFO】【base_page.py】【find_ele】【日志信息】：登录页面_登录功能：开始查找元素：('xpath', '//input[@id="password"]')
+【2020-05-27_18:22:59】【INFO】【base_page.py】【input_text】【日志信息】：登录页面_登录功能：元素：('xpath', '//input[@id="password"]') 输入内容：Mima123!
+【2020-05-27_18:22:59】【INFO】【base_page.py】【find_ele】【日志信息】：登录页面_登录功能：开始查找元素：('xpath', '//div[@class="login-box"]//button')
+【2020-05-27_18:22:59】【INFO】【base_page.py】【click_ele】【日志信息】：登录页面_登录功能：元素：('xpath', '//div[@class="login-box"]//button') 点击操作
+【2020-05-27_18:22:59】【INFO】【base_page.py】【wait_ele_visible】【日志信息】：等待元素可见。
+【2020-05-27_18:23:00】【INFO】【base_page.py】【wait_ele_visible】【日志信息】：登录页面_错误用户和密码提示信息模块: 元素 ('xpath', '//div[contains(@class,"ant-message-custom-content")]//span')已可见
+【2020-05-27_18:23:00】【INFO】【base_page.py】【find_ele】【日志信息】：登录页面_错误用户和密码提示信息：开始查找元素：('xpath', '//div[contains(@class,"ant-message-custom-content")]//span')
+【2020-05-27_18:23:00】【INFO】【base_page.py】【get_text】【日志信息】：登录页面_错误用户和密码提示信息：获取元素：('xpath', '//div[contains(@class,"ant-message-custom-content")]//span')的文本内容
+【2020-05-27_18:23:00】【INFO】【base_page.py】【get_text】【日志信息】：登录页面_错误用户和密码提示信息：获取元素：('xpath', '//div[contains(@class,"ant-message-custom-content")]//span')的文本内容是：您输入的用户名或密码不正确
+【2020-05-27_18:23:00】【INFO】【conftest.py】【init_login】【日志信息】：=====用例后置：关闭谷歌浏览器会话=======
+【2020-05-27_18:23:03】【INFO】【conftest.py】【init_login】【日志信息】：=====用例前置：初始化浏览器会话:打开谷歌浏览器，访问系统网址：https://j2.sccpcloud.com/login/#/Login?clientId=visual_materials&redirectUrl=https%3A%2F%2Fvisualuat.sccpcloud.com%2Fmaterials%2F%23%2Fapp%2Fdynamic%2Flist%3Froute%3D=======
+【2020-05-27_18:23:09】【INFO】【test_login.py】【test_login_error_user_pwd】【日志信息】：===========登陆用例：异常场景：使用错误的用户名和密码登陆=========
+【2020-05-27_18:23:09】【INFO】【base_page.py】【wait_ele_visible】【日志信息】：等待元素可见。
+【2020-05-27_18:23:09】【INFO】【base_page.py】【wait_ele_visible】【日志信息】：登录页面_登录功能模块: 元素 ('xpath', '//button[@class="ant-btn home_box1_button"]')已可见
+【2020-05-27_18:23:09】【INFO】【base_page.py】【find_ele】【日志信息】：登录页面_登录功能：开始查找元素：('xpath', '//button[@class="ant-btn home_box1_button"]')
+【2020-05-27_18:23:09】【INFO】【base_page.py】【click_ele】【日志信息】：登录页面_登录功能：元素：('xpath', '//button[@class="ant-btn home_box1_button"]') 点击操作
+【2020-05-27_18:23:10】【INFO】【base_page.py】【wait_ele_visible】【日志信息】：等待元素可见。
+【2020-05-27_18:23:10】【INFO】【base_page.py】【wait_ele_visible】【日志信息】：登录页面_登录功能模块: 元素 ('xpath', '//input[@id="username"]')已可见
+【2020-05-27_18:23:10】【INFO】【base_page.py】【find_ele】【日志信息】：登录页面_登录功能：开始查找元素：('xpath', '//input[@id="username"]')
+【2020-05-27_18:23:10】【INFO】【base_page.py】【input_text】【日志信息】：登录页面_登录功能：元素：('xpath', '//input[@id="username"]') 输入内容：Mat001
+【2020-05-27_18:23:10】【INFO】【base_page.py】【find_ele】【日志信息】：登录页面_登录功能：开始查找元素：('xpath', '//input[@id="password"]')
+【2020-05-27_18:23:10】【INFO】【base_page.py】【input_text】【日志信息】：登录页面_登录功能：元素：('xpath', '//input[@id="password"]') 输入内容：123456
+【2020-05-27_18:23:11】【INFO】【base_page.py】【find_ele】【日志信息】：登录页面_登录功能：开始查找元素：('xpath', '//div[@class="login-box"]//button')
+【2020-05-27_18:23:11】【INFO】【base_page.py】【click_ele】【日志信息】：登录页面_登录功能：元素：('xpath', '//div[@class="login-box"]//button') 点击操作
+【2020-05-27_18:23:11】【INFO】【base_page.py】【wait_ele_visible】【日志信息】：等待元素可见。
+【2020-05-27_18:23:12】【INFO】【base_page.py】【wait_ele_visible】【日志信息】：登录页面_错误用户和密码提示信息模块: 元素 ('xpath', '//div[contains(@class,"ant-message-custom-content")]//span')已可见
+【2020-05-27_18:23:12】【INFO】【base_page.py】【find_ele】【日志信息】：登录页面_错误用户和密码提示信息：开始查找元素：('xpath', '//div[contains(@class,"ant-message-custom-content")]//span')
+【2020-05-27_18:23:12】【INFO】【base_page.py】【get_text】【日志信息】：登录页面_错误用户和密码提示信息：获取元素：('xpath', '//div[contains(@class,"ant-message-custom-content")]//span')的文本内容
+【2020-05-27_18:23:12】【INFO】【base_page.py】【get_text】【日志信息】：登录页面_错误用户和密码提示信息：获取元素：('xpath', '//div[contains(@class,"ant-message-custom-content")]//span')的文本内容是：您输入的用户名或密码不正确
+【2020-05-27_18:23:12】【INFO】【conftest.py】【init_login】【日志信息】：=====用例后置：关闭谷歌浏览器会话=======
+【2020-05-27_18:23:14】【INFO】【conftest.py】【init_login】【日志信息】：=====用例前置：初始化浏览器会话:打开谷歌浏览器，访问系统网址：https://j2.sccpcloud.com/login/#/Login?clientId=visual_materials&redirectUrl=https%3A%2F%2Fvisualuat.sccpcloud.com%2Fmaterials%2F%23%2Fapp%2Fdynamic%2Flist%3Froute%3D=======
+【2020-05-27_18:23:21】【INFO】【test_login.py】【test_login_error_user_pwd】【日志信息】：===========登陆用例：异常场景：使用错误的用户名和密码登陆=========
+【2020-05-27_18:23:21】【INFO】【base_page.py】【wait_ele_visible】【日志信息】：等待元素可见。
+【2020-05-27_18:23:21】【INFO】【base_page.py】【wait_ele_visible】【日志信息】：登录页面_登录功能模块: 元素 ('xpath', '//button[@class="ant-btn home_box1_button"]')已可见
+【2020-05-27_18:23:21】【INFO】【base_page.py】【find_ele】【日志信息】：登录页面_登录功能：开始查找元素：('xpath', '//button[@class="ant-btn home_box1_button"]')
+【2020-05-27_18:23:21】【INFO】【base_page.py】【click_ele】【日志信息】：登录页面_登录功能：元素：('xpath', '//button[@class="ant-btn home_box1_button"]') 点击操作
+【2020-05-27_18:23:21】【INFO】【base_page.py】【wait_ele_visible】【日志信息】：等待元素可见。
+【2020-05-27_18:23:22】【INFO】【base_page.py】【wait_ele_visible】【日志信息】：登录页面_登录功能模块: 元素 ('xpath', '//input[@id="username"]')已可见
+【2020-05-27_18:23:22】【INFO】【base_page.py】【find_ele】【日志信息】：登录页面_登录功能：开始查找元素：('xpath', '//input[@id="username"]')
+【2020-05-27_18:23:22】【INFO】【base_page.py】【input_text】【日志信息】：登录页面_登录功能：元素：('xpath', '//input[@id="username"]') 输入内容：test01
+【2020-05-27_18:23:22】【INFO】【base_page.py】【find_ele】【日志信息】：登录页面_登录功能：开始查找元素：('xpath', '//input[@id="password"]')
+【2020-05-27_18:23:22】【INFO】【base_page.py】【input_text】【日志信息】：登录页面_登录功能：元素：('xpath', '//input[@id="password"]') 输入内容：123456
+【2020-05-27_18:23:22】【INFO】【base_page.py】【find_ele】【日志信息】：登录页面_登录功能：开始查找元素：('xpath', '//div[@class="login-box"]//button')
+【2020-05-27_18:23:22】【INFO】【base_page.py】【click_ele】【日志信息】：登录页面_登录功能：元素：('xpath', '//div[@class="login-box"]//button') 点击操作
+【2020-05-27_18:23:23】【INFO】【base_page.py】【wait_ele_visible】【日志信息】：等待元素可见。
+【2020-05-27_18:23:24】【INFO】【base_page.py】【wait_ele_visible】【日志信息】：登录页面_错误用户和密码提示信息模块: 元素 ('xpath', '//div[contains(@class,"ant-message-custom-content")]//span')已可见
+【2020-05-27_18:23:24】【INFO】【base_page.py】【find_ele】【日志信息】：登录页面_错误用户和密码提示信息：开始查找元素：('xpath', '//div[contains(@class,"ant-message-custom-content")]//span')
+【2020-05-27_18:23:24】【INFO】【base_page.py】【get_text】【日志信息】：登录页面_错误用户和密码提示信息：获取元素：('xpath', '//div[contains(@class,"ant-message-custom-content")]//span')的文本内容
+【2020-05-27_18:23:24】【INFO】【base_page.py】【get_text】【日志信息】：登录页面_错误用户和密码提示信息：获取元素：('xpath', '//div[contains(@class,"ant-message-custom-content")]//span')的文本内容是：您输入的用户名或密码不正确
+【2020-05-27_18:23:24】【INFO】【conftest.py】【init_login】【日志信息】：=====用例后置：关闭谷歌浏览器会话=======
+【2020-05-27_18:23:26】【INFO】【conftest.py】【init_login】【日志信息】：=====用例前置：初始化浏览器会话:打开谷歌浏览器，访问系统网址：https://j2.sccpcloud.com/login/#/Login?clientId=visual_materials&redirectUrl=https%3A%2F%2Fvisualuat.sccpcloud.com%2Fmaterials%2F%23%2Fapp%2Fdynamic%2Flist%3Froute%3D=======
+【2020-05-27_18:23:33】【INFO】【test_login.py】【test_login_empty_user_pwd】【日志信息】：===========登陆用例：异常场景：用户名或密码为空=========
+【2020-05-27_18:23:33】【INFO】【base_page.py】【wait_ele_visible】【日志信息】：等待元素可见。
+【2020-05-27_18:23:33】【INFO】【base_page.py】【wait_ele_visible】【日志信息】：登录页面_登录功能模块: 元素 ('xpath', '//button[@class="ant-btn home_box1_button"]')已可见
+【2020-05-27_18:23:33】【INFO】【base_page.py】【find_ele】【日志信息】：登录页面_登录功能：开始查找元素：('xpath', '//button[@class="ant-btn home_box1_button"]')
+【2020-05-27_18:23:33】【INFO】【base_page.py】【click_ele】【日志信息】：登录页面_登录功能：元素：('xpath', '//button[@class="ant-btn home_box1_button"]') 点击操作
+【2020-05-27_18:23:33】【INFO】【base_page.py】【wait_ele_visible】【日志信息】：等待元素可见。
+【2020-05-27_18:23:34】【INFO】【base_page.py】【wait_ele_visible】【日志信息】：登录页面_登录功能模块: 元素 ('xpath', '//input[@id="username"]')已可见
+【2020-05-27_18:23:34】【INFO】【base_page.py】【find_ele】【日志信息】：登录页面_登录功能：开始查找元素：('xpath', '//input[@id="username"]')
+【2020-05-27_18:23:34】【INFO】【base_page.py】【input_text】【日志信息】：登录页面_登录功能：元素：('xpath', '//input[@id="username"]') 输入内容：
+【2020-05-27_18:23:34】【INFO】【base_page.py】【find_ele】【日志信息】：登录页面_登录功能：开始查找元素：('xpath', '//input[@id="password"]')
+【2020-05-27_18:23:34】【INFO】【base_page.py】【input_text】【日志信息】：登录页面_登录功能：元素：('xpath', '//input[@id="password"]') 输入内容：Mima123!
+【2020-05-27_18:23:34】【INFO】【base_page.py】【find_ele】【日志信息】：登录页面_登录功能：开始查找元素：('xpath', '//div[@class="login-box"]//button')
+【2020-05-27_18:23:34】【INFO】【base_page.py】【click_ele】【日志信息】：登录页面_登录功能：元素：('xpath', '//div[@class="login-box"]//button') 点击操作
+【2020-05-27_18:23:34】【INFO】【base_page.py】【wait_ele_visible】【日志信息】：等待元素可见。
+【2020-05-27_18:23:35】【INFO】【base_page.py】【wait_ele_visible】【日志信息】：登录页面_用户名或密码为空提示信息模块: 元素 ('xpath', '//div[@class="ant-form-explain"]')已可见
+【2020-05-27_18:23:35】【INFO】【base_page.py】【find_ele】【日志信息】：登录页面_用户名或密码为空提示信息：开始查找元素：('xpath', '//div[@class="ant-form-explain"]')
+【2020-05-27_18:23:35】【INFO】【base_page.py】【get_text】【日志信息】：登录页面_用户名或密码为空提示信息：获取元素：('xpath', '//div[@class="ant-form-explain"]')的文本内容
+【2020-05-27_18:23:35】【INFO】【base_page.py】【get_text】【日志信息】：登录页面_用户名或密码为空提示信息：获取元素：('xpath', '//div[@class="ant-form-explain"]')的文本内容是：请输入用户名或邮箱
+【2020-05-27_18:23:35】【INFO】【conftest.py】【init_login】【日志信息】：=====用例后置：关闭谷歌浏览器会话=======
+【2020-05-27_18:23:38】【INFO】【conftest.py】【init_login】【日志信息】：=====用例前置：初始化浏览器会话:打开谷歌浏览器，访问系统网址：https://j2.sccpcloud.com/login/#/Login?clientId=visual_materials&redirectUrl=https%3A%2F%2Fvisualuat.sccpcloud.com%2Fmaterials%2F%23%2Fapp%2Fdynamic%2Flist%3Froute%3D=======
+【2020-05-27_18:23:44】【INFO】【test_login.py】【test_login_empty_user_pwd】【日志信息】：===========登陆用例：异常场景：用户名或密码为空=========
+【2020-05-27_18:23:44】【INFO】【base_page.py】【wait_ele_visible】【日志信息】：等待元素可见。
+【2020-05-27_18:23:44】【INFO】【base_page.py】【wait_ele_visible】【日志信息】：登录页面_登录功能模块: 元素 ('xpath', '//button[@class="ant-btn home_box1_button"]')已可见
+【2020-05-27_18:23:44】【INFO】【base_page.py】【find_ele】【日志信息】：登录页面_登录功能：开始查找元素：('xpath', '//button[@class="ant-btn home_box1_button"]')
+【2020-05-27_18:23:44】【INFO】【base_page.py】【click_ele】【日志信息】：登录页面_登录功能：元素：('xpath', '//button[@class="ant-btn home_box1_button"]') 点击操作
+【2020-05-27_18:23:44】【INFO】【base_page.py】【wait_ele_visible】【日志信息】：等待元素可见。
+【2020-05-27_18:23:45】【INFO】【base_page.py】【wait_ele_visible】【日志信息】：登录页面_登录功能模块: 元素 ('xpath', '//input[@id="username"]')已可见
+【2020-05-27_18:23:45】【INFO】【base_page.py】【find_ele】【日志信息】：登录页面_登录功能：开始查找元素：('xpath', '//input[@id="username"]')
+【2020-05-27_18:23:45】【INFO】【base_page.py】【input_text】【日志信息】：登录页面_登录功能：元素：('xpath', '//input[@id="username"]') 输入内容：Mat001
+【2020-05-27_18:23:45】【INFO】【base_page.py】【find_ele】【日志信息】：登录页面_登录功能：开始查找元素：('xpath', '//input[@id="password"]')
+【2020-05-27_18:23:45】【INFO】【base_page.py】【input_text】【日志信息】：登录页面_登录功能：元素：('xpath', '//input[@id="password"]') 输入内容：
+【2020-05-27_18:23:45】【INFO】【base_page.py】【find_ele】【日志信息】：登录页面_登录功能：开始查找元素：('xpath', '//div[@class="login-box"]//button')
+【2020-05-27_18:23:45】【INFO】【base_page.py】【click_ele】【日志信息】：登录页面_登录功能：元素：('xpath', '//div[@class="login-box"]//button') 点击操作
+【2020-05-27_18:23:46】【INFO】【base_page.py】【wait_ele_visible】【日志信息】：等待元素可见。
+【2020-05-27_18:23:46】【INFO】【base_page.py】【wait_ele_visible】【日志信息】：登录页面_用户名或密码为空提示信息模块: 元素 ('xpath', '//div[@class="ant-form-explain"]')已可见
+【2020-05-27_18:23:46】【INFO】【base_page.py】【find_ele】【日志信息】：登录页面_用户名或密码为空提示信息：开始查找元素：('xpath', '//div[@class="ant-form-explain"]')
+【2020-05-27_18:23:46】【INFO】【base_page.py】【get_text】【日志信息】：登录页面_用户名或密码为空提示信息：获取元素：('xpath', '//div[@class="ant-form-explain"]')的文本内容
+【2020-05-27_18:23:46】【INFO】【base_page.py】【get_text】【日志信息】：登录页面_用户名或密码为空提示信息：获取元素：('xpath', '//div[@class="ant-form-explain"]')的文本内容是：请输入密码
+【2020-05-27_18:23:46】【INFO】【conftest.py】【init_login】【日志信息】：=====用例后置：关闭谷歌浏览器会话=======
+【2020-05-27_18:23:49】【INFO】【conftest.py】【init_login】【日志信息】：=====用例前置：初始化浏览器会话:打开谷歌浏览器，访问系统网址：https://j2.sccpcloud.com/login/#/Login?clientId=visual_materials&redirectUrl=https%3A%2F%2Fvisualuat.sccpcloud.com%2Fmaterials%2F%23%2Fapp%2Fdynamic%2Flist%3Froute%3D=======
+【2020-05-27_18:23:56】【INFO】【test_login.py】【test_login_all_empty_user_pwd】【日志信息】：===========登陆用例：异常场景：用户名和密码为空=========
+【2020-05-27_18:23:56】【INFO】【base_page.py】【wait_ele_visible】【日志信息】：等待元素可见。
+【2020-05-27_18:23:56】【INFO】【base_page.py】【wait_ele_visible】【日志信息】：登录页面_登录功能模块: 元素 ('xpath', '//button[@class="ant-btn home_box1_button"]')已可见
+【2020-05-27_18:23:56】【INFO】【base_page.py】【find_ele】【日志信息】：登录页面_登录功能：开始查找元素：('xpath', '//button[@class="ant-btn home_box1_button"]')
+【2020-05-27_18:23:56】【INFO】【base_page.py】【click_ele】【日志信息】：登录页面_登录功能：元素：('xpath', '//button[@class="ant-btn home_box1_button"]') 点击操作
+【2020-05-27_18:23:56】【INFO】【base_page.py】【wait_ele_visible】【日志信息】：等待元素可见。
+【2020-05-27_18:23:57】【INFO】【base_page.py】【wait_ele_visible】【日志信息】：登录页面_登录功能模块: 元素 ('xpath', '//input[@id="username"]')已可见
+【2020-05-27_18:23:57】【INFO】【base_page.py】【find_ele】【日志信息】：登录页面_登录功能：开始查找元素：('xpath', '//input[@id="username"]')
+【2020-05-27_18:23:57】【INFO】【base_page.py】【input_text】【日志信息】：登录页面_登录功能：元素：('xpath', '//input[@id="username"]') 输入内容：
+【2020-05-27_18:23:57】【INFO】【base_page.py】【find_ele】【日志信息】：登录页面_登录功能：开始查找元素：('xpath', '//input[@id="password"]')
+【2020-05-27_18:23:57】【INFO】【base_page.py】【input_text】【日志信息】：登录页面_登录功能：元素：('xpath', '//input[@id="password"]') 输入内容：
+【2020-05-27_18:23:57】【INFO】【base_page.py】【find_ele】【日志信息】：登录页面_登录功能：开始查找元素：('xpath', '//div[@class="login-box"]//button')
+【2020-05-27_18:23:57】【INFO】【base_page.py】【click_ele】【日志信息】：登录页面_登录功能：元素：('xpath', '//div[@class="login-box"]//button') 点击操作
+【2020-05-27_18:23:57】【INFO】【base_page.py】【wait_ele_visible】【日志信息】：等待元素可见。
+【2020-05-27_18:23:58】【INFO】【base_page.py】【wait_ele_visible】【日志信息】：登录页面_用户名和密码为空提示信息模块: 元素 ('xpath', '//div[@class="ant-form-explain"]')已可见
+【2020-05-27_18:23:58】【INFO】【base_page.py】【find_all_ele】【日志信息】：登录页面_用户名和密码为空提示信息：开始查找符合表达式的所有元素：('xpath', '//div[@class="ant-form-explain"]')
+【2020-05-27_18:23:58】【INFO】【base_page.py】【get_all_text】【日志信息】：登录页面_用户名和密码为空提示信息：获取多个元素：('xpath', '//div[@class="ant-form-explain"]')的文本内容
+【2020-05-27_18:23:58】【INFO】【base_page.py】【get_all_text】【日志信息】：登录页面_用户名和密码为空提示信息：获取多个元素：('xpath', '//div[@class="ant-form-explain"]')的文本内容是：['请输入用户名或邮箱', '请输入密码']
+【2020-05-27_18:23:58】【INFO】【conftest.py】【init_login】【日志信息】：=====用例后置：关闭谷歌浏览器会话=======
+【2020-05-27_18:24:00】【INFO】【conftest.py】【login_web】【日志信息】：=====用例前置：初始化浏览器会话，登录物料可视化系统=======
+【2020-05-27_18:24:07】【INFO】【base_page.py】【wait_ele_visible】【日志信息】：等待元素可见。
+【2020-05-27_18:24:07】【INFO】【base_page.py】【wait_ele_visible】【日志信息】：登录页面_登录功能模块: 元素 ('xpath', '//button[@class="ant-btn home_box1_button"]')已可见
+【2020-05-27_18:24:07】【INFO】【base_page.py】【find_ele】【日志信息】：登录页面_登录功能：开始查找元素：('xpath', '//button[@class="ant-btn home_box1_button"]')
+【2020-05-27_18:24:07】【INFO】【base_page.py】【click_ele】【日志信息】：登录页面_登录功能：元素：('xpath', '//button[@class="ant-btn home_box1_button"]') 点击操作
+【2020-05-27_18:24:07】【INFO】【base_page.py】【wait_ele_visible】【日志信息】：等待元素可见。
+【2020-05-27_18:24:08】【INFO】【base_page.py】【wait_ele_visible】【日志信息】：登录页面_登录功能模块: 元素 ('xpath', '//input[@id="username"]')已可见
+【2020-05-27_18:24:08】【INFO】【base_page.py】【find_ele】【日志信息】：登录页面_登录功能：开始查找元素：('xpath', '//input[@id="username"]')
+【2020-05-27_18:24:08】【INFO】【base_page.py】【input_text】【日志信息】：登录页面_登录功能：元素：('xpath', '//input[@id="username"]') 输入内容：Mat001
+【2020-05-27_18:24:08】【INFO】【base_page.py】【find_ele】【日志信息】：登录页面_登录功能：开始查找元素：('xpath', '//input[@id="password"]')
+【2020-05-27_18:24:08】【INFO】【base_page.py】【input_text】【日志信息】：登录页面_登录功能：元素：('xpath', '//input[@id="password"]') 输入内容：Mima123!
+【2020-05-27_18:24:09】【INFO】【base_page.py】【find_ele】【日志信息】：登录页面_登录功能：开始查找元素：('xpath', '//div[@class="login-box"]//button')
+【2020-05-27_18:24:09】【INFO】【base_page.py】【click_ele】【日志信息】：登录页面_登录功能：元素：('xpath', '//div[@class="login-box"]//button') 点击操作
+【2020-05-27_18:24:09】【INFO】【test_materials_list.py】【test_search_success】【日志信息】：===========物料列表页查询用例：正常场景：使用正确的partNO=========
+【2020-05-27_18:24:09】【INFO】【base_page.py】【wait_ele_visible】【日志信息】：等待元素可见。
+【2020-05-27_18:24:15】【INFO】【base_page.py】【wait_ele_visible】【日志信息】：首页_查询功能模块: 元素 ('xpath', '//input[@placeholder="search"]')已可见
+【2020-05-27_18:24:15】【INFO】【base_page.py】【find_ele】【日志信息】：首页_查询功能：开始查找元素：('xpath', '//input[@placeholder="search"]')
+【2020-05-27_18:24:15】【INFO】【base_page.py】【input_text】【日志信息】：首页_查询功能：元素：('xpath', '//input[@placeholder="search"]') 输入内容：131S00026
+【2020-05-27_18:24:16】【INFO】【base_page.py】【find_ele】【日志信息】：首页_查询功能：开始查找元素：('xpath', '//*[name()="svg" and @data-icon="search"]')
+【2020-05-27_18:24:16】【INFO】【base_page.py】【click_ele】【日志信息】：首页_查询功能：元素：('xpath', '//*[name()="svg" and @data-icon="search"]') 点击操作
+【2020-05-27_18:24:21】【INFO】【base_page.py】【wait_ele_visible】【日志信息】：等待元素可见。
+【2020-05-27_18:24:21】【INFO】【base_page.py】【wait_ele_visible】【日志信息】：首页_获取当前页所有物料的PartNo模块: 元素 ('xpath', '//span[@class="part-number"]')已可见
+【2020-05-27_18:24:21】【INFO】【base_page.py】【find_all_ele】【日志信息】：首页_获取当前页所有物料的PartNo：开始查找符合表达式的所有元素：('xpath', '//span[@class="part-number"]')
+【2020-05-27_18:24:21】【INFO】【base_page.py】【get_all_text】【日志信息】：首页_获取当前页所有物料的PartNo：获取多个元素：('xpath', '//span[@class="part-number"]')的文本内容
+【2020-05-27_18:24:21】【INFO】【base_page.py】【get_all_text】【日志信息】：首页_获取当前页所有物料的PartNo：获取多个元素：('xpath', '//span[@class="part-number"]')的文本内容是：['131S00026']
+【2020-05-27_18:24:21】【INFO】【base_page.py】【find_ele】【日志信息】：首页_获取查询列表总条数：开始查找元素：('xpath', '//div[@class="pagination-total"]')
+【2020-05-27_18:24:21】【INFO】【base_page.py】【get_text】【日志信息】：首页_获取查询列表总条数：获取元素：('xpath', '//div[@class="pagination-total"]')的文本内容
+【2020-05-27_18:24:21】【INFO】【base_page.py】【get_text】【日志信息】：首页_获取查询列表总条数：获取元素：('xpath', '//div[@class="pagination-total"]')的文本内容是：Total Number of Materials：1
+【2020-05-27_18:24:21】【INFO】【conftest.py】【login_web】【日志信息】：=====用例后置：关闭浏览器会话，关闭浏览器=======
+【2020-05-27_18:24:24】【INFO】【conftest.py】【login_web】【日志信息】：=====用例前置：初始化浏览器会话，登录物料可视化系统=======
+【2020-05-27_18:24:30】【INFO】【base_page.py】【wait_ele_visible】【日志信息】：等待元素可见。
+【2020-05-27_18:24:31】【INFO】【base_page.py】【wait_ele_visible】【日志信息】：登录页面_登录功能模块: 元素 ('xpath', '//button[@class="ant-btn home_box1_button"]')已可见
+【2020-05-27_18:24:31】【INFO】【base_page.py】【find_ele】【日志信息】：登录页面_登录功能：开始查找元素：('xpath', '//button[@class="ant-btn home_box1_button"]')
+【2020-05-27_18:24:31】【INFO】【base_page.py】【click_ele】【日志信息】：登录页面_登录功能：元素：('xpath', '//button[@class="ant-btn home_box1_button"]') 点击操作
+【2020-05-27_18:24:31】【INFO】【base_page.py】【wait_ele_visible】【日志信息】：等待元素可见。
+【2020-05-27_18:24:31】【INFO】【base_page.py】【wait_ele_visible】【日志信息】：登录页面_登录功能模块: 元素 ('xpath', '//input[@id="username"]')已可见
+【2020-05-27_18:24:31】【INFO】【base_page.py】【find_ele】【日志信息】：登录页面_登录功能：开始查找元素：('xpath', '//input[@id="username"]')
+【2020-05-27_18:24:31】【INFO】【base_page.py】【input_text】【日志信息】：登录页面_登录功能：元素：('xpath', '//input[@id="username"]') 输入内容：Mat001
+【2020-05-27_18:24:32】【INFO】【base_page.py】【find_ele】【日志信息】：登录页面_登录功能：开始查找元素：('xpath', '//input[@id="password"]')
+【2020-05-27_18:24:32】【INFO】【base_page.py】【input_text】【日志信息】：登录页面_登录功能：元素：('xpath', '//input[@id="password"]') 输入内容：Mima123!
+【2020-05-27_18:24:32】【INFO】【base_page.py】【find_ele】【日志信息】：登录页面_登录功能：开始查找元素：('xpath', '//div[@class="login-box"]//button')
+【2020-05-27_18:24:32】【INFO】【base_page.py】【click_ele】【日志信息】：登录页面_登录功能：元素：('xpath', '//div[@class="login-box"]//button') 点击操作
+【2020-05-27_18:24:32】【INFO】【test_materials_list.py】【test_search_success】【日志信息】：===========物料列表页查询用例：正常场景：使用正确的partNO=========
+【2020-05-27_18:24:32】【INFO】【base_page.py】【wait_ele_visible】【日志信息】：等待元素可见。
+【2020-05-27_18:24:39】【INFO】【base_page.py】【wait_ele_visible】【日志信息】：首页_查询功能模块: 元素 ('xpath', '//input[@placeholder="search"]')已可见
+【2020-05-27_18:24:39】【INFO】【base_page.py】【find_ele】【日志信息】：首页_查询功能：开始查找元素：('xpath', '//input[@placeholder="search"]')
+【2020-05-27_18:24:39】【INFO】【base_page.py】【input_text】【日志信息】：首页_查询功能：元素：('xpath', '//input[@placeholder="search"]') 输入内容：102s0186
+【2020-05-27_18:24:39】【INFO】【base_page.py】【find_ele】【日志信息】：首页_查询功能：开始查找元素：('xpath', '//*[name()="svg" and @data-icon="search"]')
+【2020-05-27_18:24:39】【INFO】【base_page.py】【click_ele】【日志信息】：首页_查询功能：元素：('xpath', '//*[name()="svg" and @data-icon="search"]') 点击操作
+【2020-05-27_18:24:44】【INFO】【base_page.py】【wait_ele_visible】【日志信息】：等待元素可见。
+【2020-05-27_18:24:44】【INFO】【base_page.py】【wait_ele_visible】【日志信息】：首页_获取当前页所有物料的PartNo模块: 元素 ('xpath', '//span[@class="part-number"]')已可见
+【2020-05-27_18:24:44】【INFO】【base_page.py】【find_all_ele】【日志信息】：首页_获取当前页所有物料的PartNo：开始查找符合表达式的所有元素：('xpath', '//span[@class="part-number"]')
+【2020-05-27_18:24:44】【INFO】【base_page.py】【get_all_text】【日志信息】：首页_获取当前页所有物料的PartNo：获取多个元素：('xpath', '//span[@class="part-number"]')的文本内容
+【2020-05-27_18:24:44】【INFO】【base_page.py】【get_all_text】【日志信息】：首页_获取当前页所有物料的PartNo：获取多个元素：('xpath', '//span[@class="part-number"]')的文本内容是：['102S0186']
+【2020-05-27_18:24:44】【INFO】【base_page.py】【find_ele】【日志信息】：首页_获取查询列表总条数：开始查找元素：('xpath', '//div[@class="pagination-total"]')
+【2020-05-27_18:24:45】【INFO】【base_page.py】【get_text】【日志信息】：首页_获取查询列表总条数：获取元素：('xpath', '//div[@class="pagination-total"]')的文本内容
+【2020-05-27_18:24:45】【INFO】【base_page.py】【get_text】【日志信息】：首页_获取查询列表总条数：获取元素：('xpath', '//div[@class="pagination-total"]')的文本内容是：Total Number of Materials：1
+【2020-05-27_18:24:45】【INFO】【conftest.py】【login_web】【日志信息】：=====用例后置：关闭浏览器会话，关闭浏览器=======
+【2020-05-27_18:24:47】【INFO】【conftest.py】【login_web】【日志信息】：=====用例前置：初始化浏览器会话，登录物料可视化系统=======
+【2020-05-27_18:24:54】【INFO】【base_page.py】【wait_ele_visible】【日志信息】：等待元素可见。
+【2020-05-27_18:24:54】【INFO】【base_page.py】【wait_ele_visible】【日志信息】：登录页面_登录功能模块: 元素 ('xpath', '//button[@class="ant-btn home_box1_button"]')已可见
+【2020-05-27_18:24:54】【INFO】【base_page.py】【find_ele】【日志信息】：登录页面_登录功能：开始查找元素：('xpath', '//button[@class="ant-btn home_box1_button"]')
+【2020-05-27_18:24:54】【INFO】【base_page.py】【click_ele】【日志信息】：登录页面_登录功能：元素：('xpath', '//button[@class="ant-btn home_box1_button"]') 点击操作
+【2020-05-27_18:24:54】【INFO】【base_page.py】【wait_ele_visible】【日志信息】：等待元素可见。
+【2020-05-27_18:24:55】【INFO】【base_page.py】【wait_ele_visible】【日志信息】：登录页面_登录功能模块: 元素 ('xpath', '//input[@id="username"]')已可见
+【2020-05-27_18:24:55】【INFO】【base_page.py】【find_ele】【日志信息】：登录页面_登录功能：开始查找元素：('xpath', '//input[@id="username"]')
+【2020-05-27_18:24:55】【INFO】【base_page.py】【input_text】【日志信息】：登录页面_登录功能：元素：('xpath', '//input[@id="username"]') 输入内容：Mat001
+【2020-05-27_18:24:55】【INFO】【base_page.py】【find_ele】【日志信息】：登录页面_登录功能：开始查找元素：('xpath', '//input[@id="password"]')
+【2020-05-27_18:24:55】【INFO】【base_page.py】【input_text】【日志信息】：登录页面_登录功能：元素：('xpath', '//input[@id="password"]') 输入内容：Mima123!
+【2020-05-27_18:24:55】【INFO】【base_page.py】【find_ele】【日志信息】：登录页面_登录功能：开始查找元素：('xpath', '//div[@class="login-box"]//button')
+【2020-05-27_18:24:55】【INFO】【base_page.py】【click_ele】【日志信息】：登录页面_登录功能：元素：('xpath', '//div[@class="login-box"]//button') 点击操作
+【2020-05-27_18:24:55】【INFO】【test_materials_list.py】【test_search_success】【日志信息】：===========物料列表页查询用例：正常场景：使用正确的partNO=========
+【2020-05-27_18:24:55】【INFO】【base_page.py】【wait_ele_visible】【日志信息】：等待元素可见。
+【2020-05-27_18:25:01】【INFO】【base_page.py】【wait_ele_visible】【日志信息】：首页_查询功能模块: 元素 ('xpath', '//input[@placeholder="search"]')已可见
+【2020-05-27_18:25:01】【INFO】【base_page.py】【find_ele】【日志信息】：首页_查询功能：开始查找元素：('xpath', '//input[@placeholder="search"]')
+【2020-05-27_18:25:01】【INFO】【base_page.py】【input_text】【日志信息】：首页_查询功能：元素：('xpath', '//input[@placeholder="search"]') 输入内容：102
+【2020-05-27_18:25:02】【INFO】【base_page.py】【find_ele】【日志信息】：首页_查询功能：开始查找元素：('xpath', '//*[name()="svg" and @data-icon="search"]')
+【2020-05-27_18:25:02】【INFO】【base_page.py】【click_ele】【日志信息】：首页_查询功能：元素：('xpath', '//*[name()="svg" and @data-icon="search"]') 点击操作
+【2020-05-27_18:25:07】【INFO】【base_page.py】【wait_ele_visible】【日志信息】：等待元素可见。
+【2020-05-27_18:25:07】【INFO】【base_page.py】【wait_ele_visible】【日志信息】：首页_获取当前页所有物料的PartNo模块: 元素 ('xpath', '//span[@class="part-number"]')已可见
+【2020-05-27_18:25:07】【INFO】【base_page.py】【find_all_ele】【日志信息】：首页_获取当前页所有物料的PartNo：开始查找符合表达式的所有元素：('xpath', '//span[@class="part-number"]')
+【2020-05-27_18:25:07】【INFO】【base_page.py】【get_all_text】【日志信息】：首页_获取当前页所有物料的PartNo：获取多个元素：('xpath', '//span[@class="part-number"]')的文本内容
+【2020-05-27_18:25:07】【INFO】【base_page.py】【get_all_text】【日志信息】：首页_获取当前页所有物料的PartNo：获取多个元素：('xpath', '//span[@class="part-number"]')的文本内容是：['102S0186', '152S01021', '152S01028']
+【2020-05-27_18:25:07】【INFO】【base_page.py】【find_ele】【日志信息】：首页_获取查询列表总条数：开始查找元素：('xpath', '//div[@class="pagination-total"]')
+【2020-05-27_18:25:07】【INFO】【base_page.py】【get_text】【日志信息】：首页_获取查询列表总条数：获取元素：('xpath', '//div[@class="pagination-total"]')的文本内容
+【2020-05-27_18:25:07】【INFO】【base_page.py】【get_text】【日志信息】：首页_获取查询列表总条数：获取元素：('xpath', '//div[@class="pagination-total"]')的文本内容是：Total Number of Materials：3
+【2020-05-27_18:25:07】【INFO】【conftest.py】【login_web】【日志信息】：=====用例后置：关闭浏览器会话，关闭浏览器=======
+【2020-05-27_18:25:10】【INFO】【conftest.py】【login_web】【日志信息】：=====用例前置：初始化浏览器会话，登录物料可视化系统=======
+【2020-05-27_18:25:16】【INFO】【base_page.py】【wait_ele_visible】【日志信息】：等待元素可见。
+【2020-05-27_18:25:16】【INFO】【base_page.py】【wait_ele_visible】【日志信息】：登录页面_登录功能模块: 元素 ('xpath', '//button[@class="ant-btn home_box1_button"]')已可见
+【2020-05-27_18:25:16】【INFO】【base_page.py】【find_ele】【日志信息】：登录页面_登录功能：开始查找元素：('xpath', '//button[@class="ant-btn home_box1_button"]')
+【2020-05-27_18:25:16】【INFO】【base_page.py】【click_ele】【日志信息】：登录页面_登录功能：元素：('xpath', '//button[@class="ant-btn home_box1_button"]') 点击操作
+【2020-05-27_18:25:16】【INFO】【base_page.py】【wait_ele_visible】【日志信息】：等待元素可见。
+【2020-05-27_18:25:17】【INFO】【base_page.py】【wait_ele_visible】【日志信息】：登录页面_登录功能模块: 元素 ('xpath', '//input[@id="username"]')已可见
+【2020-05-27_18:25:17】【INFO】【base_page.py】【find_ele】【日志信息】：登录页面_登录功能：开始查找元素：('xpath', '//input[@id="username"]')
+【2020-05-27_18:25:17】【INFO】【base_page.py】【input_text】【日志信息】：登录页面_登录功能：元素：('xpath', '//input[@id="username"]') 输入内容：Mat001
+【2020-05-27_18:25:17】【INFO】【base_page.py】【find_ele】【日志信息】：登录页面_登录功能：开始查找元素：('xpath', '//input[@id="password"]')
+【2020-05-27_18:25:17】【INFO】【base_page.py】【input_text】【日志信息】：登录页面_登录功能：元素：('xpath', '//input[@id="password"]') 输入内容：Mima123!
+【2020-05-27_18:25:18】【INFO】【base_page.py】【find_ele】【日志信息】：登录页面_登录功能：开始查找元素：('xpath', '//div[@class="login-box"]//button')
+【2020-05-27_18:25:18】【INFO】【base_page.py】【click_ele】【日志信息】：登录页面_登录功能：元素：('xpath', '//div[@class="login-box"]//button') 点击操作
+【2020-05-27_18:25:18】【INFO】【test_materials_list.py】【test_search_success】【日志信息】：===========物料列表页查询用例：正常场景：使用正确的partNO=========
+【2020-05-27_18:25:18】【INFO】【base_page.py】【wait_ele_visible】【日志信息】：等待元素可见。
+【2020-05-27_18:25:24】【INFO】【base_page.py】【wait_ele_visible】【日志信息】：首页_查询功能模块: 元素 ('xpath', '//input[@placeholder="search"]')已可见
+【2020-05-27_18:25:24】【INFO】【base_page.py】【find_ele】【日志信息】：首页_查询功能：开始查找元素：('xpath', '//input[@placeholder="search"]')
+【2020-05-27_18:25:24】【INFO】【base_page.py】【input_text】【日志信息】：首页_查询功能：元素：('xpath', '//input[@placeholder="search"]') 输入内容：62
+【2020-05-27_18:25:24】【INFO】【base_page.py】【find_ele】【日志信息】：首页_查询功能：开始查找元素：('xpath', '//*[name()="svg" and @data-icon="search"]')
+【2020-05-27_18:25:24】【INFO】【base_page.py】【click_ele】【日志信息】：首页_查询功能：元素：('xpath', '//*[name()="svg" and @data-icon="search"]') 点击操作
+【2020-05-27_18:25:29】【INFO】【base_page.py】【wait_ele_visible】【日志信息】：等待元素可见。
+【2020-05-27_18:25:29】【INFO】【base_page.py】【wait_ele_visible】【日志信息】：首页_获取当前页所有物料的PartNo模块: 元素 ('xpath', '//span[@class="part-number"]')已可见
+【2020-05-27_18:25:29】【INFO】【base_page.py】【find_all_ele】【日志信息】：首页_获取当前页所有物料的PartNo：开始查找符合表达式的所有元素：('xpath', '//span[@class="part-number"]')
+【2020-05-27_18:25:29】【INFO】【base_page.py】【get_all_text】【日志信息】：首页_获取当前页所有物料的PartNo：获取多个元素：('xpath', '//span[@class="part-number"]')的文本内容
+【2020-05-27_18:25:29】【INFO】【base_page.py】【get_all_text】【日志信息】：首页_获取当前页所有物料的PartNo：获取多个元素：('xpath', '//span[@class="part-number"]')的文本内容是：['132S00162', '870-09062-TL-M', '152S1620', '860-7862-UN', '604-16201-FU', '806-09762-TL', '155S00462', '860-7862-HM']
+【2020-05-27_18:25:29】【INFO】【base_page.py】【find_ele】【日志信息】：首页_获取查询列表总条数：开始查找元素：('xpath', '//div[@class="pagination-total"]')
+【2020-05-27_18:25:29】【INFO】【base_page.py】【get_text】【日志信息】：首页_获取查询列表总条数：获取元素：('xpath', '//div[@class="pagination-total"]')的文本内容
+【2020-05-27_18:25:29】【INFO】【base_page.py】【get_text】【日志信息】：首页_获取查询列表总条数：获取元素：('xpath', '//div[@class="pagination-total"]')的文本内容是：Total Number of Materials：8
+【2020-05-27_18:25:30】【INFO】【conftest.py】【login_web】【日志信息】：=====用例后置：关闭浏览器会话，关闭浏览器=======
+【2020-05-27_18:25:32】【INFO】【conftest.py】【login_web】【日志信息】：=====用例前置：初始化浏览器会话，登录物料可视化系统=======
+【2020-05-27_18:25:39】【INFO】【base_page.py】【wait_ele_visible】【日志信息】：等待元素可见。
+【2020-05-27_18:25:39】【INFO】【base_page.py】【wait_ele_visible】【日志信息】：登录页面_登录功能模块: 元素 ('xpath', '//button[@class="ant-btn home_box1_button"]')已可见
+【2020-05-27_18:25:39】【INFO】【base_page.py】【find_ele】【日志信息】：登录页面_登录功能：开始查找元素：('xpath', '//button[@class="ant-btn home_box1_button"]')
+【2020-05-27_18:25:39】【INFO】【base_page.py】【click_ele】【日志信息】：登录页面_登录功能：元素：('xpath', '//button[@class="ant-btn home_box1_button"]') 点击操作
+【2020-05-27_18:25:39】【INFO】【base_page.py】【wait_ele_visible】【日志信息】：等待元素可见。
+【2020-05-27_18:25:39】【INFO】【base_page.py】【wait_ele_visible】【日志信息】：登录页面_登录功能模块: 元素 ('xpath', '//input[@id="username"]')已可见
+【2020-05-27_18:25:39】【INFO】【base_page.py】【find_ele】【日志信息】：登录页面_登录功能：开始查找元素：('xpath', '//input[@id="username"]')
+【2020-05-27_18:25:39】【INFO】【base_page.py】【input_text】【日志信息】：登录页面_登录功能：元素：('xpath', '//input[@id="username"]') 输入内容：Mat001
+【2020-05-27_18:25:40】【INFO】【base_page.py】【find_ele】【日志信息】：登录页面_登录功能：开始查找元素：('xpath', '//input[@id="password"]')
+【2020-05-27_18:25:40】【INFO】【base_page.py】【input_text】【日志信息】：登录页面_登录功能：元素：('xpath', '//input[@id="password"]') 输入内容：Mima123!
+【2020-05-27_18:25:40】【INFO】【base_page.py】【find_ele】【日志信息】：登录页面_登录功能：开始查找元素：('xpath', '//div[@class="login-box"]//button')
+【2020-05-27_18:25:40】【INFO】【base_page.py】【click_ele】【日志信息】：登录页面_登录功能：元素：('xpath', '//div[@class="login-box"]//button') 点击操作
+【2020-05-27_18:25:40】【INFO】【test_materials_list.py】【test_search_success】【日志信息】：===========物料列表页查询用例：正常场景：使用正确的partNO=========
+【2020-05-27_18:25:40】【INFO】【base_page.py】【wait_ele_visible】【日志信息】：等待元素可见。
+【2020-05-27_18:25:46】【INFO】【base_page.py】【wait_ele_visible】【日志信息】：首页_查询功能模块: 元素 ('xpath', '//input[@placeholder="search"]')已可见
+【2020-05-27_18:25:46】【INFO】【base_page.py】【find_ele】【日志信息】：首页_查询功能：开始查找元素：('xpath', '//input[@placeholder="search"]')
+【2020-05-27_18:25:46】【INFO】【base_page.py】【input_text】【日志信息】：首页_查询功能：元素：('xpath', '//input[@placeholder="search"]') 输入内容：000
+【2020-05-27_18:25:47】【INFO】【base_page.py】【find_ele】【日志信息】：首页_查询功能：开始查找元素：('xpath', '//*[name()="svg" and @data-icon="search"]')
+【2020-05-27_18:25:47】【INFO】【base_page.py】【click_ele】【日志信息】：首页_查询功能：元素：('xpath', '//*[name()="svg" and @data-icon="search"]') 点击操作
+【2020-05-27_18:25:52】【INFO】【base_page.py】【wait_ele_visible】【日志信息】：等待元素可见。
+【2020-05-27_18:25:52】【INFO】【base_page.py】【wait_ele_visible】【日志信息】：首页_获取当前页所有物料的PartNo模块: 元素 ('xpath', '//span[@class="part-number"]')已可见
+【2020-05-27_18:25:52】【INFO】【base_page.py】【find_all_ele】【日志信息】：首页_获取当前页所有物料的PartNo：开始查找符合表达式的所有元素：('xpath', '//span[@class="part-number"]')
+【2020-05-27_18:25:52】【INFO】【base_page.py】【get_all_text】【日志信息】：首页_获取当前页所有物料的PartNo：获取多个元素：('xpath', '//span[@class="part-number"]')的文本内容
+【2020-05-27_18:25:52】【INFO】【base_page.py】【get_all_text】【日志信息】：首页_获取当前页所有物料的PartNo：获取多个元素：('xpath', '//span[@class="part-number"]')的文本内容是：['118S00064', '131S00026', '138S00003C', '197S00077', '512S00043', '104S00033', '118S00071', '131S00001', '138S00003A', '103S00089']
+【2020-05-27_18:25:52】【INFO】【base_page.py】【find_ele】【日志信息】：首页_获取查询列表总条数：开始查找元素：('xpath', '//div[@class="pagination-total"]')
+【2020-05-27_18:25:52】【INFO】【base_page.py】【get_text】【日志信息】：首页_获取查询列表总条数：获取元素：('xpath', '//div[@class="pagination-total"]')的文本内容
+【2020-05-27_18:25:52】【INFO】【base_page.py】【get_text】【日志信息】：首页_获取查询列表总条数：获取元素：('xpath', '//div[@class="pagination-total"]')的文本内容是：Total Number of Materials：59
+【2020-05-27_18:25:52】【INFO】【conftest.py】【login_web】【日志信息】：=====用例后置：关闭浏览器会话，关闭浏览器=======
+【2020-05-27_18:25:55】【INFO】【conftest.py】【login_web】【日志信息】：=====用例前置：初始化浏览器会话，登录物料可视化系统=======
+【2020-05-27_18:26:01】【INFO】【base_page.py】【wait_ele_visible】【日志信息】：等待元素可见。
+【2020-05-27_18:26:02】【INFO】【base_page.py】【wait_ele_visible】【日志信息】：登录页面_登录功能模块: 元素 ('xpath', '//button[@class="ant-btn home_box1_button"]')已可见
+【2020-05-27_18:26:02】【INFO】【base_page.py】【find_ele】【日志信息】：登录页面_登录功能：开始查找元素：('xpath', '//button[@class="ant-btn home_box1_button"]')
+【2020-05-27_18:26:02】【INFO】【base_page.py】【click_ele】【日志信息】：登录页面_登录功能：元素：('xpath', '//button[@class="ant-btn home_box1_button"]') 点击操作
+【2020-05-27_18:26:02】【INFO】【base_page.py】【wait_ele_visible】【日志信息】：等待元素可见。
+【2020-05-27_18:26:02】【INFO】【base_page.py】【wait_ele_visible】【日志信息】：登录页面_登录功能模块: 元素 ('xpath', '//input[@id="username"]')已可见
+【2020-05-27_18:26:02】【INFO】【base_page.py】【find_ele】【日志信息】：登录页面_登录功能：开始查找元素：('xpath', '//input[@id="username"]')
+【2020-05-27_18:26:02】【INFO】【base_page.py】【input_text】【日志信息】：登录页面_登录功能：元素：('xpath', '//input[@id="username"]') 输入内容：Mat001
+【2020-05-27_18:26:03】【INFO】【base_page.py】【find_ele】【日志信息】：登录页面_登录功能：开始查找元素：('xpath', '//input[@id="password"]')
+【2020-05-27_18:26:03】【INFO】【base_page.py】【input_text】【日志信息】：登录页面_登录功能：元素：('xpath', '//input[@id="password"]') 输入内容：Mima123!
+【2020-05-27_18:26:03】【INFO】【base_page.py】【find_ele】【日志信息】：登录页面_登录功能：开始查找元素：('xpath', '//div[@class="login-box"]//button')
+【2020-05-27_18:26:03】【INFO】【base_page.py】【click_ele】【日志信息】：登录页面_登录功能：元素：('xpath', '//div[@class="login-box"]//button') 点击操作
+【2020-05-27_18:26:03】【INFO】【test_materials_list.py】【test_search_success】【日志信息】：===========物料列表页查询用例：正常场景：使用正确的partNO=========
+【2020-05-27_18:26:03】【INFO】【base_page.py】【wait_ele_visible】【日志信息】：等待元素可见。
+【2020-05-27_18:26:09】【INFO】【base_page.py】【wait_ele_visible】【日志信息】：首页_查询功能模块: 元素 ('xpath', '//input[@placeholder="search"]')已可见
+【2020-05-27_18:26:09】【INFO】【base_page.py】【find_ele】【日志信息】：首页_查询功能：开始查找元素：('xpath', '//input[@placeholder="search"]')
+【2020-05-27_18:26:09】【INFO】【base_page.py】【input_text】【日志信息】：首页_查询功能：元素：('xpath', '//input[@placeholder="search"]') 输入内容：
+【2020-05-27_18:26:09】【INFO】【base_page.py】【find_ele】【日志信息】：首页_查询功能：开始查找元素：('xpath', '//*[name()="svg" and @data-icon="search"]')
+【2020-05-27_18:26:09】【INFO】【base_page.py】【click_ele】【日志信息】：首页_查询功能：元素：('xpath', '//*[name()="svg" and @data-icon="search"]') 点击操作
+【2020-05-27_18:26:15】【INFO】【base_page.py】【find_ele】【日志信息】：首页_获取查询列表总条数：开始查找元素：('xpath', '//div[@class="pagination-total"]')
+【2020-05-27_18:26:15】【INFO】【base_page.py】【get_text】【日志信息】：首页_获取查询列表总条数：获取元素：('xpath', '//div[@class="pagination-total"]')的文本内容
+【2020-05-27_18:26:15】【INFO】【base_page.py】【get_text】【日志信息】：首页_获取查询列表总条数：获取元素：('xpath', '//div[@class="pagination-total"]')的文本内容是：Total Number of Materials：523
+【2020-05-27_18:26:15】【INFO】【conftest.py】【login_web】【日志信息】：=====用例后置：关闭浏览器会话，关闭浏览器=======
+【2020-05-27_18:26:17】【INFO】【conftest.py】【login_web】【日志信息】：=====用例前置：初始化浏览器会话，登录物料可视化系统=======
+【2020-05-27_18:26:24】【INFO】【base_page.py】【wait_ele_visible】【日志信息】：等待元素可见。
+【2020-05-27_18:26:24】【INFO】【base_page.py】【wait_ele_visible】【日志信息】：登录页面_登录功能模块: 元素 ('xpath', '//button[@class="ant-btn home_box1_button"]')已可见
+【2020-05-27_18:26:24】【INFO】【base_page.py】【find_ele】【日志信息】：登录页面_登录功能：开始查找元素：('xpath', '//button[@class="ant-btn home_box1_button"]')
+【2020-05-27_18:26:24】【INFO】【base_page.py】【click_ele】【日志信息】：登录页面_登录功能：元素：('xpath', '//button[@class="ant-btn home_box1_button"]') 点击操作
+【2020-05-27_18:26:24】【INFO】【base_page.py】【wait_ele_visible】【日志信息】：等待元素可见。
+【2020-05-27_18:26:25】【INFO】【base_page.py】【wait_ele_visible】【日志信息】：登录页面_登录功能模块: 元素 ('xpath', '//input[@id="username"]')已可见
+【2020-05-27_18:26:25】【INFO】【base_page.py】【find_ele】【日志信息】：登录页面_登录功能：开始查找元素：('xpath', '//input[@id="username"]')
+【2020-05-27_18:26:25】【INFO】【base_page.py】【input_text】【日志信息】：登录页面_登录功能：元素：('xpath', '//input[@id="username"]') 输入内容：Mat001
+【2020-05-27_18:26:25】【INFO】【base_page.py】【find_ele】【日志信息】：登录页面_登录功能：开始查找元素：('xpath', '//input[@id="password"]')
+【2020-05-27_18:26:25】【INFO】【base_page.py】【input_text】【日志信息】：登录页面_登录功能：元素：('xpath', '//input[@id="password"]') 输入内容：Mima123!
+【2020-05-27_18:26:25】【INFO】【base_page.py】【find_ele】【日志信息】：登录页面_登录功能：开始查找元素：('xpath', '//div[@class="login-box"]//button')
+【2020-05-27_18:26:26】【INFO】【base_page.py】【click_ele】【日志信息】：登录页面_登录功能：元素：('xpath', '//div[@class="login-box"]//button') 点击操作
+【2020-05-27_18:26:26】【INFO】【test_materials_list.py】【test_search_fail】【日志信息】：===========物料列表页查询用例：异常场景：料号不存在、输入特殊字符、汉字=========
+【2020-05-27_18:26:26】【INFO】【base_page.py】【wait_ele_visible】【日志信息】：等待元素可见。
+【2020-05-27_18:26:32】【INFO】【base_page.py】【wait_ele_visible】【日志信息】：首页_查询功能模块: 元素 ('xpath', '//input[@placeholder="search"]')已可见
+【2020-05-27_18:26:32】【INFO】【base_page.py】【find_ele】【日志信息】：首页_查询功能：开始查找元素：('xpath', '//input[@placeholder="search"]')
+【2020-05-27_18:26:32】【INFO】【base_page.py】【input_text】【日志信息】：首页_查询功能：元素：('xpath', '//input[@placeholder="search"]') 输入内容：12345678
+【2020-05-27_18:26:32】【INFO】【base_page.py】【find_ele】【日志信息】：首页_查询功能：开始查找元素：('xpath', '//*[name()="svg" and @data-icon="search"]')
+【2020-05-27_18:26:32】【INFO】【base_page.py】【click_ele】【日志信息】：首页_查询功能：元素：('xpath', '//*[name()="svg" and @data-icon="search"]') 点击操作
+【2020-05-27_18:26:34】【INFO】【base_page.py】【wait_ele_visible】【日志信息】：等待元素可见。
+【2020-05-27_18:26:34】【INFO】【base_page.py】【wait_ele_visible】【日志信息】：首页_获取查询列表为空的提示信息模块: 元素 ('xpath', '//p[@class="ant-empty-description"]')已可见
+【2020-05-27_18:26:34】【INFO】【base_page.py】【find_ele】【日志信息】：首页_获取查询列表为空的提示信息：开始查找元素：('xpath', '//p[@class="ant-empty-description"]')
+【2020-05-27_18:26:34】【INFO】【base_page.py】【get_text】【日志信息】：首页_获取查询列表为空的提示信息：获取元素：('xpath', '//p[@class="ant-empty-description"]')的文本内容
+【2020-05-27_18:26:34】【INFO】【base_page.py】【get_text】【日志信息】：首页_获取查询列表为空的提示信息：获取元素：('xpath', '//p[@class="ant-empty-description"]')的文本内容是：No Data
+【2020-05-27_18:26:35】【INFO】【conftest.py】【login_web】【日志信息】：=====用例后置：关闭浏览器会话，关闭浏览器=======
+【2020-05-27_18:26:37】【INFO】【conftest.py】【login_web】【日志信息】：=====用例前置：初始化浏览器会话，登录物料可视化系统=======
+【2020-05-27_18:26:43】【INFO】【base_page.py】【wait_ele_visible】【日志信息】：等待元素可见。
+【2020-05-27_18:26:44】【INFO】【base_page.py】【wait_ele_visible】【日志信息】：登录页面_登录功能模块: 元素 ('xpath', '//button[@class="ant-btn home_box1_button"]')已可见
+【2020-05-27_18:26:44】【INFO】【base_page.py】【find_ele】【日志信息】：登录页面_登录功能：开始查找元素：('xpath', '//button[@class="ant-btn home_box1_button"]')
+【2020-05-27_18:26:44】【INFO】【base_page.py】【click_ele】【日志信息】：登录页面_登录功能：元素：('xpath', '//button[@class="ant-btn home_box1_button"]') 点击操作
+【2020-05-27_18:26:44】【INFO】【base_page.py】【wait_ele_visible】【日志信息】：等待元素可见。
+【2020-05-27_18:26:44】【INFO】【base_page.py】【wait_ele_visible】【日志信息】：登录页面_登录功能模块: 元素 ('xpath', '//input[@id="username"]')已可见
+【2020-05-27_18:26:44】【INFO】【base_page.py】【find_ele】【日志信息】：登录页面_登录功能：开始查找元素：('xpath', '//input[@id="username"]')
+【2020-05-27_18:26:44】【INFO】【base_page.py】【input_text】【日志信息】：登录页面_登录功能：元素：('xpath', '//input[@id="username"]') 输入内容：Mat001
+【2020-05-27_18:26:45】【INFO】【base_page.py】【find_ele】【日志信息】：登录页面_登录功能：开始查找元素：('xpath', '//input[@id="password"]')
+【2020-05-27_18:26:45】【INFO】【base_page.py】【input_text】【日志信息】：登录页面_登录功能：元素：('xpath', '//input[@id="password"]') 输入内容：Mima123!
+【2020-05-27_18:26:45】【INFO】【base_page.py】【find_ele】【日志信息】：登录页面_登录功能：开始查找元素：('xpath', '//div[@class="login-box"]//button')
+【2020-05-27_18:26:45】【INFO】【base_page.py】【click_ele】【日志信息】：登录页面_登录功能：元素：('xpath', '//div[@class="login-box"]//button') 点击操作
+【2020-05-27_18:26:45】【INFO】【test_materials_list.py】【test_search_fail】【日志信息】：===========物料列表页查询用例：异常场景：料号不存在、输入特殊字符、汉字=========
+【2020-05-27_18:26:45】【INFO】【base_page.py】【wait_ele_visible】【日志信息】：等待元素可见。
+【2020-05-27_18:26:51】【INFO】【base_page.py】【wait_ele_visible】【日志信息】：首页_查询功能模块: 元素 ('xpath', '//input[@placeholder="search"]')已可见
+【2020-05-27_18:26:51】【INFO】【base_page.py】【find_ele】【日志信息】：首页_查询功能：开始查找元素：('xpath', '//input[@placeholder="search"]')
+【2020-05-27_18:26:51】【INFO】【base_page.py】【input_text】【日志信息】：首页_查询功能：元素：('xpath', '//input[@placeholder="search"]') 输入内容：*%
+【2020-05-27_18:26:51】【INFO】【base_page.py】【find_ele】【日志信息】：首页_查询功能：开始查找元素：('xpath', '//*[name()="svg" and @data-icon="search"]')
+【2020-05-27_18:26:51】【INFO】【base_page.py】【click_ele】【日志信息】：首页_查询功能：元素：('xpath', '//*[name()="svg" and @data-icon="search"]') 点击操作
+【2020-05-27_18:26:54】【INFO】【base_page.py】【wait_ele_visible】【日志信息】：等待元素可见。
+【2020-05-27_18:26:54】【INFO】【base_page.py】【wait_ele_visible】【日志信息】：首页_获取查询列表为空的提示信息模块: 元素 ('xpath', '//p[@class="ant-empty-description"]')已可见
+【2020-05-27_18:26:54】【INFO】【base_page.py】【find_ele】【日志信息】：首页_获取查询列表为空的提示信息：开始查找元素：('xpath', '//p[@class="ant-empty-description"]')
+【2020-05-27_18:26:54】【INFO】【base_page.py】【get_text】【日志信息】：首页_获取查询列表为空的提示信息：获取元素：('xpath', '//p[@class="ant-empty-description"]')的文本内容
+【2020-05-27_18:26:54】【INFO】【base_page.py】【get_text】【日志信息】：首页_获取查询列表为空的提示信息：获取元素：('xpath', '//p[@class="ant-empty-description"]')的文本内容是：No Data
+【2020-05-27_18:26:54】【INFO】【conftest.py】【login_web】【日志信息】：=====用例后置：关闭浏览器会话，关闭浏览器=======
+【2020-05-27_18:26:56】【INFO】【conftest.py】【login_web】【日志信息】：=====用例前置：初始化浏览器会话，登录物料可视化系统=======
+【2020-05-27_18:27:03】【INFO】【base_page.py】【wait_ele_visible】【日志信息】：等待元素可见。
+【2020-05-27_18:27:03】【INFO】【base_page.py】【wait_ele_visible】【日志信息】：登录页面_登录功能模块: 元素 ('xpath', '//button[@class="ant-btn home_box1_button"]')已可见
+【2020-05-27_18:27:03】【INFO】【base_page.py】【find_ele】【日志信息】：登录页面_登录功能：开始查找元素：('xpath', '//button[@class="ant-btn home_box1_button"]')
+【2020-05-27_18:27:03】【INFO】【base_page.py】【click_ele】【日志信息】：登录页面_登录功能：元素：('xpath', '//button[@class="ant-btn home_box1_button"]') 点击操作
+【2020-05-27_18:27:03】【INFO】【base_page.py】【wait_ele_visible】【日志信息】：等待元素可见。
+【2020-05-27_18:27:04】【INFO】【base_page.py】【wait_ele_visible】【日志信息】：登录页面_登录功能模块: 元素 ('xpath', '//input[@id="username"]')已可见
+【2020-05-27_18:27:04】【INFO】【base_page.py】【find_ele】【日志信息】：登录页面_登录功能：开始查找元素：('xpath', '//input[@id="username"]')
+【2020-05-27_18:27:04】【INFO】【base_page.py】【input_text】【日志信息】：登录页面_登录功能：元素：('xpath', '//input[@id="username"]') 输入内容：Mat001
+【2020-05-27_18:27:04】【INFO】【base_page.py】【find_ele】【日志信息】：登录页面_登录功能：开始查找元素：('xpath', '//input[@id="password"]')
+【2020-05-27_18:27:04】【INFO】【base_page.py】【input_text】【日志信息】：登录页面_登录功能：元素：('xpath', '//input[@id="password"]') 输入内容：Mima123!
+【2020-05-27_18:27:06】【INFO】【base_page.py】【find_ele】【日志信息】：登录页面_登录功能：开始查找元素：('xpath', '//div[@class="login-box"]//button')
+【2020-05-27_18:27:06】【INFO】【base_page.py】【click_ele】【日志信息】：登录页面_登录功能：元素：('xpath', '//div[@class="login-box"]//button') 点击操作
+【2020-05-27_18:27:06】【INFO】【test_materials_list.py】【test_search_fail】【日志信息】：===========物料列表页查询用例：异常场景：料号不存在、输入特殊字符、汉字=========
+【2020-05-27_18:27:06】【INFO】【base_page.py】【wait_ele_visible】【日志信息】：等待元素可见。
+【2020-05-27_18:27:12】【INFO】【base_page.py】【wait_ele_visible】【日志信息】：首页_查询功能模块: 元素 ('xpath', '//input[@placeholder="search"]')已可见
+【2020-05-27_18:27:12】【INFO】【base_page.py】【find_ele】【日志信息】：首页_查询功能：开始查找元素：('xpath', '//input[@placeholder="search"]')
+【2020-05-27_18:27:12】【INFO】【base_page.py】【input_text】【日志信息】：首页_查询功能：元素：('xpath', '//input[@placeholder="search"]') 输入内容：你好python
+【2020-05-27_18:27:12】【INFO】【base_page.py】【find_ele】【日志信息】：首页_查询功能：开始查找元素：('xpath', '//*[name()="svg" and @data-icon="search"]')
+【2020-05-27_18:27:12】【INFO】【base_page.py】【click_ele】【日志信息】：首页_查询功能：元素：('xpath', '//*[name()="svg" and @data-icon="search"]') 点击操作
+【2020-05-27_18:27:14】【INFO】【base_page.py】【wait_ele_visible】【日志信息】：等待元素可见。
+【2020-05-27_18:27:15】【INFO】【base_page.py】【wait_ele_visible】【日志信息】：首页_获取查询列表为空的提示信息模块: 元素 ('xpath', '//p[@class="ant-empty-description"]')已可见
+【2020-05-27_18:27:15】【INFO】【base_page.py】【find_ele】【日志信息】：首页_获取查询列表为空的提示信息：开始查找元素：('xpath', '//p[@class="ant-empty-description"]')
+【2020-05-27_18:27:15】【INFO】【base_page.py】【get_text】【日志信息】：首页_获取查询列表为空的提示信息：获取元素：('xpath', '//p[@class="ant-empty-description"]')的文本内容
+【2020-05-27_18:27:15】【INFO】【base_page.py】【get_text】【日志信息】：首页_获取查询列表为空的提示信息：获取元素：('xpath', '//p[@class="ant-empty-description"]')的文本内容是：No Data
+【2020-05-27_18:27:15】【INFO】【conftest.py】【login_web】【日志信息】：=====用例后置：关闭浏览器会话，关闭浏览器=======
+【2020-05-27_18:27:18】【INFO】【conftest.py】【login_web】【日志信息】：=====用例前置：初始化浏览器会话，登录物料可视化系统=======
+【2020-05-27_18:27:25】【INFO】【base_page.py】【wait_ele_visible】【日志信息】：等待元素可见。
+【2020-05-27_18:27:25】【INFO】【base_page.py】【wait_ele_visible】【日志信息】：登录页面_登录功能模块: 元素 ('xpath', '//button[@class="ant-btn home_box1_button"]')已可见
+【2020-05-27_18:27:25】【INFO】【base_page.py】【find_ele】【日志信息】：登录页面_登录功能：开始查找元素：('xpath', '//button[@class="ant-btn home_box1_button"]')
+【2020-05-27_18:27:25】【INFO】【base_page.py】【click_ele】【日志信息】：登录页面_登录功能：元素：('xpath', '//button[@class="ant-btn home_box1_button"]') 点击操作
+【2020-05-27_18:27:25】【INFO】【base_page.py】【wait_ele_visible】【日志信息】：等待元素可见。
+【2020-05-27_18:27:26】【INFO】【base_page.py】【wait_ele_visible】【日志信息】：登录页面_登录功能模块: 元素 ('xpath', '//input[@id="username"]')已可见
+【2020-05-27_18:27:26】【INFO】【base_page.py】【find_ele】【日志信息】：登录页面_登录功能：开始查找元素：('xpath', '//input[@id="username"]')
+【2020-05-27_18:27:26】【INFO】【base_page.py】【input_text】【日志信息】：登录页面_登录功能：元素：('xpath', '//input[@id="username"]') 输入内容：Mat001
+【2020-05-27_18:27:26】【INFO】【base_page.py】【find_ele】【日志信息】：登录页面_登录功能：开始查找元素：('xpath', '//input[@id="password"]')
+【2020-05-27_18:27:26】【INFO】【base_page.py】【input_text】【日志信息】：登录页面_登录功能：元素：('xpath', '//input[@id="password"]') 输入内容：Mima123!
+【2020-05-27_18:27:27】【INFO】【base_page.py】【find_ele】【日志信息】：登录页面_登录功能：开始查找元素：('xpath', '//div[@class="login-box"]//button')
+【2020-05-27_18:27:27】【INFO】【base_page.py】【click_ele】【日志信息】：登录页面_登录功能：元素：('xpath', '//div[@class="login-box"]//button') 点击操作
+【2020-05-27_18:27:27】【INFO】【conftest.py】【login_web】【日志信息】：=====用例后置：关闭浏览器会话，关闭浏览器=======
+【2020-05-27_18:27:30】【INFO】【conftest.py】【login_web】【日志信息】：=====用例前置：初始化浏览器会话，登录物料可视化系统=======
+【2020-05-27_18:27:37】【INFO】【base_page.py】【wait_ele_visible】【日志信息】：等待元素可见。
+【2020-05-27_18:27:37】【INFO】【base_page.py】【wait_ele_visible】【日志信息】：登录页面_登录功能模块: 元素 ('xpath', '//button[@class="ant-btn home_box1_button"]')已可见
+【2020-05-27_18:27:37】【INFO】【base_page.py】【find_ele】【日志信息】：登录页面_登录功能：开始查找元素：('xpath', '//button[@class="ant-btn home_box1_button"]')
+【2020-05-27_18:27:37】【INFO】【base_page.py】【click_ele】【日志信息】：登录页面_登录功能：元素：('xpath', '//button[@class="ant-btn home_box1_button"]') 点击操作
+【2020-05-27_18:27:37】【INFO】【base_page.py】【wait_ele_visible】【日志信息】：等待元素可见。
+【2020-05-27_18:27:37】【INFO】【base_page.py】【wait_ele_visible】【日志信息】：登录页面_登录功能模块: 元素 ('xpath', '//input[@id="username"]')已可见
+【2020-05-27_18:27:37】【INFO】【base_page.py】【find_ele】【日志信息】：登录页面_登录功能：开始查找元素：('xpath', '//input[@id="username"]')
+【2020-05-27_18:27:37】【INFO】【base_page.py】【input_text】【日志信息】：登录页面_登录功能：元素：('xpath', '//input[@id="username"]') 输入内容：Mat001
+【2020-05-27_18:27:38】【INFO】【base_page.py】【find_ele】【日志信息】：登录页面_登录功能：开始查找元素：('xpath', '//input[@id="password"]')
+【2020-05-27_18:27:38】【INFO】【base_page.py】【input_text】【日志信息】：登录页面_登录功能：元素：('xpath', '//input[@id="password"]') 输入内容：Mima123!
+【2020-05-27_18:27:38】【INFO】【base_page.py】【find_ele】【日志信息】：登录页面_登录功能：开始查找元素：('xpath', '//div[@class="login-box"]//button')
+【2020-05-27_18:27:38】【INFO】【base_page.py】【click_ele】【日志信息】：登录页面_登录功能：元素：('xpath', '//div[@class="login-box"]//button') 点击操作
+【2020-05-27_18:27:38】【INFO】【conftest.py】【login_web】【日志信息】：=====用例后置：关闭浏览器会话，关闭浏览器=======
