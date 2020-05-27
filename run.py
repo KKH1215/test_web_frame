@@ -10,4 +10,7 @@
 
 import pytest
 
-pytest.main(['--html=HtmlTestReport/report.html', '--junitxml=HtmlTestReport/report.xml'])
+#  自动收集、运行用例，自动生成测试报告。失败用例自动重新运行一次
+pytest.main(
+    ['--reruns', '1', '--reruns-delay', '5', '--html=HtmlTestReport/report.html',
+     '--junitxml=HtmlTestReport/report.xml'])
