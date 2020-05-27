@@ -1,0 +1,33 @@
+# ============================登录测试数据============================
+
+login_success:   # 正常场景——登录成功测试数据
+  - {user: Mat001, pwd: Mima123!, expect: Mat001}
+  - {user: Mat092, pwd: Mima123!, expect: Mat092}
+
+login_error_userPwd:  # 异常场景——用户名、密码错误
+  - {user: Mat0011, pwd: Mima123!, expect: 您输入的用户名或密码不正确}
+  - {user: Mat001, pwd: 123456, expect: 您输入的用户名或密码不正确}
+  - {user: test01, pwd: 123456, expect: 您输入的用户名或密码不正确}
+
+login_empty_userPwd:  #  异常场景——用户名或密码为空
+  - {user: '', pwd: Mima123!, expect: 请输入用户名或邮箱}
+  - {user: Mat001, pwd: '', expect: 请输入密码}
+
+login_all_empty_userPwd:  #  异常场景——用户名和密码为空
+  - {user: '', pwd: '', expect: ['请输入用户名或邮箱', '请输入密码']}
+
+
+# ============================物料列表页查询测试数据============================
+
+search_success:  # 正确的物料号查询
+  - {partNo: 131S00026, expect: ['131S00026', 1]}
+  - {partNo: 102s0186, expect: ['102S0186', 1]} # 忽略大小写
+  - {partNo: 102, expect: ['102', 3]} # 模糊查询，取前部分
+  - {partNo: 62, expect: ['62', 8]} # 模糊查询，取后部分
+  - {partNo: '000', expect: ['000', 59 ]} # 模糊查询，取中间部分
+  - {partNo: '', expect: [523]} #  不输入partNo
+
+search_fail:   # 物料号不存在、输入特殊字符、汉字
+  - {partNo: 12345678, expect: No Data}
+  - {partNo: '*%', expect: No Data}
+  - {partNo: '你好python', expect: No Data}

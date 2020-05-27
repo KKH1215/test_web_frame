@@ -10,7 +10,7 @@
 
 import time
 import logging
-from Config.pro_path import *
+from Common.pro_path import log_path
 
 
 class MyLogger:
@@ -26,7 +26,8 @@ class MyLogger:
         self.fh.setLevel(logging.INFO)
         self.sh.setLevel(logging.INFO)
         # 定义输出格式
-        formatter = logging.Formatter('【%(asctime)s】【%(levelname)s】【%(filename)s】【%(funcName)s】【日志信息】：%(message)s')
+        formatter = logging.Formatter('【%(asctime)s】【%(levelname)s】【%(filename)s】'
+                                      '【%(funcName)s】【日志信息】：%(message)s', '%Y-%m-%d_%H:%M:%S')
         self.fh.setFormatter(formatter)
         self.sh.setFormatter(formatter)
         # 和logger做对接
@@ -35,22 +36,7 @@ class MyLogger:
         self.fh.close()
         self.sh.close()
 
-    # def debug(self, message):
-    #     self.logger.debug(message)
-    #
-    # def info(self, message):
-    #     self.logger.info(message)
-    #
-    # def warning(self, message):
-    #     self.logger.warning(message)
-    #
-    # def error(self, message):
-    #     self.logger.error(message)
-    #
-    # def critical(self, message):
-    #     self.logger.critical(message)
 
-
-
+log = MyLogger().logger
 
 
